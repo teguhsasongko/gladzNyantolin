@@ -466,28 +466,4 @@ _________________________________________________________________________
 							else:
 								print ("\033[1;31m Maaf, Perintah anda salah !!!\033[1;m")
 
-					if maklo0 == "2":
-						print ('''\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 
-   NOTE  : Masukan angka sesuai dengan angka yang kamu mau install tools nya
-	   simple kan ?
-	   Ingat!!! angkanya saja, tidak usah pakai ' ) ' (tutup kurung)
-
-Chat Saya di : n00b.zuhaha404(at)gmail.com or
-		https://fb.com/gladz404.id
----------------COMMAND---------------
-
-\033[1;32m99)\033[1;m  \033[1;33mGo back\033[1;m
-
-\033[1;32m88)\033[1;m  \033[1;33mGo to the main menu\033[1;m
-_______________________________________________________________________
-		''')
-				inicio()
-		inicio1()
-	except KeyboardInterrupt:
-		print ("Shutdown requested...Goodbye...")
-	except Exception:
-		traceback.print_exc(file=sys.stdout)
-	sys.exit(0)
-
-if __name__ == "__main__":
     main()
